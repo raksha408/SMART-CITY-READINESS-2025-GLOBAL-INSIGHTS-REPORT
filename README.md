@@ -10,14 +10,14 @@ Built using **Microsoft SQL Server** and **Report Builder**, this dashboard visu
 
 ## Project Overview  
 
-The **Smart City Readiness 2025 Report** is an analytical dashboard created in **Microsoft Report Builder (.rdl)** format. It integrates SQL datasets with advanced SSRS visual elements including KPI cards, sparklines, charts, and custom expressions to deliver actionable insights on smart city performance.  
+The **Smart City Readiness 2025 Report** is an analytical dashboard created in **Microsoft Report Builder (.rdl)** format. It integrates SQL datasets with advanced SSRS visual elements including KPI cards, charts, gauges, and maps to deliver actionable insights on smart city performance.  
 
 The report provides a detailed look at metrics like:  
 - Average Readiness Score  
 - Renewable Energy Adoption (%)  
 - AI Integration Levels  
 - Air Quality Risk Index (AQRI)  
-- Regional and City-Level Insights  
+- Citizen Satisfaction and Regional Insights  
 
 The layout is visually optimized for executive presentations and sustainability analytics.  
 
@@ -25,10 +25,10 @@ The layout is visually optimized for executive presentations and sustainability 
 
 ## Key Objectives  
 
-- To measure **global smart city sustainability** and performance.  
-- To showcase **renewable energy growth** and **AI-driven adoption** across cities.  
-- To build an SSRS dashboard combining **KPI cards**, **charts**, **sparklines**, and **maps**.  
-- To ensure clarity, comparability, and clean visual storytelling using SSRS components.  
+- To measure **global smart city sustainability** and readiness performance.  
+- To analyze **renewable energy adoption** and **AI integration** across cities.  
+- To visualize **air quality risks** and **citizen satisfaction** using interactive charts.  
+- To design a **data-driven SSRS dashboard** with clarity and analytical storytelling.  
 
 ---
 
@@ -38,105 +38,70 @@ The layout is visually optimized for executive presentations and sustainability 
 |------|----------|
 | **Microsoft SQL Server (SSMS)** | Data preparation, KPI calculation, and queries |
 | **Microsoft Report Builder (SSRS)** | Dashboard design and report visualization |
-| **SQL Queries** | Used to compute average readiness, energy, and integration levels |
-| **Export Options** | Report exported as PDF for presentation and portfolio use |
+| **SQL Queries** | Computed average readiness, energy, and integration levels |
+| **Export Options** | Report exported as PDF for presentation and portfolio |
 
 ---
 
 ## Dashboard Overview  
 
-Below are screenshots of the actual **Smart City Readiness 2025 – Global Insights Report Dashboard**, built using **SSRS** and **SQL Server datasets**.  
+Below are the final SSRS report visuals created for the **Smart City Readiness 2025 – Global Insights Report**.  
 
-### 1. SQL Server Management Studio (SSMS) Data Setup  
-![SSMS Screenshot](SMART-CITY-READINESS-2025-GLOBAL-INSIGHTS-REPORT/SSMS_screenshot.png)
+### 1. Global Sustainability Snapshot  
+![Smart City Report – Overview](SMART-CITY-READINESS-2025-GLOBAL-INSIGHTS-REPORT/SmartCity_1.png)
 
-### 2. Smart City Dashboard – Overview Page  
-![Smart City Overview](SMART-CITY-READINESS-2025-GLOBAL-INSIGHTS-REPORT/SmartCity_1.png)
+This section includes:  
+- **KPI Cards** displaying Average Readiness (71.41), Renewable Energy (67.80%), and AI Integration Level (6).  
+- **Bar chart** showing top 5 sustainable cities (Stockholm, Singapore, Reykjavik, Copenhagen, Amsterdam).  
+- **AQRI Metric (53.60)** indicating global air quality risk.  
+- **Gauge chart** showing sustainability readiness index levels.  
 
-### 3. Regional Comparison View  
-![Regional Comparison](SMART-CITY-READINESS-2025-GLOBAL-INSIGHTS-REPORT/SmartCity_2.png)
-
-### 4. Sustainability and AQRI Trends  
-![Sustainability Trends](SMART-CITY-READINESS-2025-GLOBAL-INSIGHTS-REPORT/SmartCity_3.png)
-
----
-
-## Dashboard Components  
-
-### KPI Cards (Top Section)
-Displays overall averages of Smart City performance metrics:  
-- **Avg Readiness:** 71.41  
-- **Avg Renewable Energy (%):** 67.80  
-- **Avg AI Integration Level:** 6  
-
-These metrics provide a quick snapshot of how ready and sustainable global smart cities are.  
+It highlights the overall sustainability health of global smart cities in 2025.
 
 ---
 
-### Sustainability Trend Analysis  
+### 2. Air Quality and Sustainability Trends  
+![Air Quality and Sustainability Trend](SMART-CITY-READINESS-2025-GLOBAL-INSIGHTS-REPORT/SmartCity_2.png)
 
-Includes a sparkline visual showing city-wise performance and trend of sustainability growth.  
-
-**Steps Used in Report Builder:**  
-1. Insert → Table → 3 columns, 2 rows.  
-2. Drag and drop fields as follows:  
-   - **Row 1, Column 1:** `City`  
-   - **Row 1, Column 2:** `Region`  
-   - **Row 1, Column 3:** Insert → Sparkline → Line Type.  
-3. Configure the sparkline to display sustainability or readiness trends.  
-4. Right-click → Chart Properties → Hide gridlines for a clean KPI look.  
+This section contains:  
+- **Top 10 Cities by Air Quality Risk (2025)** showing environmental vulnerability rankings.  
+- **Radar chart** for *Projected Sustainability Readiness (2025–2030)* visualizing trajectory of readiness growth.  
+- Insights indicate strong growth trends in cities like **Singapore** and **London**, demonstrating policy alignment with innovation and environmental goals.  
 
 ---
 
-### Air Quality Risk Index (AQRI) Snapshot  
+### 3. AI Integration vs Citizen Satisfaction  
+![AI Integration vs Citizen Satisfaction](SMART-CITY-READINESS-2025-GLOBAL-INSIGHTS-REPORT/SmartCity_3.png)
 
-A custom expression calculates the **AQRI** metric, displaying an average global risk index value.  
-This highlights how air quality impacts sustainability and citizen satisfaction levels globally.  
+This section visualizes:  
+- **Bubble chart** showing balance between AI adoption and citizen satisfaction across continents.  
+- **Map visualization** highlighting readiness scores and renewable energy levels per region.  
+- Larger bubbles indicate cities leading in sustainability readiness and AI-driven public satisfaction.  
 
----
-
-###  Regional Insights  
-
-Each region (e.g., Europe, North America, Asia) is compared for readiness, energy adoption, and AI levels.  
-A separate table visualizes **Citizen Satisfaction** alongside city and regional metrics for clarity.  
+It demonstrates how **technology integration** and **citizen well-being** progress together globally.  
 
 ---
 
-### Chart Visuals  
+## Report Export Instructions  
 
-The dashboard integrates multiple chart types to enhance visual understanding:  
-
-| Chart Type | Description |
-|-------------|--------------|
-| **Column Chart** | AQRI and Readiness comparison |
-| **Sparkline** | Sustainability growth per city |
-| **KPI Cards** | Avg readiness, energy, and AI levels |
-| **Gauge (Optional)** | Renewable energy rate visualization |
-| **Map (Optional)** | Geographic distribution of performance |
-
----
-
-##  Report Export Instructions  
-
-To export your final SSRS report as a PDF:  
-1. Open your report in **Microsoft Report Builder**.  
+To export the SSRS report as a PDF:  
+1. Open in **Microsoft Report Builder**.  
 2. Click **Run** to preview the full dashboard.  
-3. In the toolbar, locate **Export →** dropdown (beside the print icon).  
-4. Choose **PDF** as the export format.  
-5. Save the file as `SmartCitySustainability_2025_Report.pdf`.  
+3. Select **Export → PDF** from the toolbar.  
+4. Save as `SmartCitySustainability_2025_Report.pdf`.  
 
 ---
 
 ## Insights and Learnings  
 
-- Showcases **comparative city performance** in readiness, renewable energy, and AI adoption.  
-- Demonstrates strong command of **SSRS report design** and **data-driven visualization**.  
-- Provides a model for building **sustainability analytics dashboards** using SQL + SSRS.  
-- Displays attention to design clarity and professional executive presentation style.  
- 
+- Highlights **comparative city performance** across sustainability, AI, and renewable adoption metrics.  
+- Demonstrates **SSRS dashboard design** and effective storytelling using data.  
+- Reflects ability to build **real-world analytical reports** for executive presentation.  
+- Offers a scalable model for **smart city analytics and sustainability tracking**.  
+
 ---
 
 ### Author  
 **Shriraksha Kulkarni**  
-Linkedin: [https://www.linkedin.com/in/shriraksha-kulkarni-1120b92b9/](https://www.linkedin.com/in/shriraksha-kulkarni-1120b92b9/)  
-Github: [https://github.com/raksha408](https://github.com/raksha408)
+- [LinkedIn](https://www.linkedin.com/in/shriraksha-kulkarni-1120b92b9/)  
+- [GitHub](https://github.com/raksha408)

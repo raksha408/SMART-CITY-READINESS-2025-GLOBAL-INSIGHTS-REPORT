@@ -43,6 +43,24 @@ The layout is visually optimized for executive presentations and sustainability 
 
 ---
 
+## Dashboard Overview  
+
+Below are screenshots of the actual **Smart City Readiness 2025 – Global Insights Report Dashboard**, built using **SSRS** and **SQL Server datasets**.  
+
+### 1. SQL Server Management Studio (SSMS) Data Setup  
+![SSMS Screenshot](SMART-CITY-READINESS-2025-GLOBAL-INSIGHTS-REPORT/SSMS_screenshot.png)
+
+### 2. Smart City Dashboard – Overview Page  
+![Smart City Overview](SMART-CITY-READINESS-2025-GLOBAL-INSIGHTS-REPORT/SmartCity_1.png)
+
+### 3. Regional Comparison View  
+![Regional Comparison](SMART-CITY-READINESS-2025-GLOBAL-INSIGHTS-REPORT/SmartCity_2.png)
+
+### 4. Sustainability and AQRI Trends  
+![Sustainability Trends](SMART-CITY-READINESS-2025-GLOBAL-INSIGHTS-REPORT/SmartCity_3.png)
+
+---
+
 ## Dashboard Components  
 
 ### KPI Cards (Top Section)
@@ -109,16 +127,6 @@ To export your final SSRS report as a PDF:
 
 ---
 
-## Dashboard Preview  
-
-### Smart City Sustainability Snapshot  
-![Smart City Report](Dashboard_Screenshot_1.png)
-
-### Air Quality & Integration Overview  
-![Global Snapshot](Dashboard_Screenshot_2.png)
-
----
-
 ## Insights and Learnings  
 
 - Showcases **comparative city performance** in readiness, renewable energy, and AI adoption.  
@@ -128,9 +136,7 @@ To export your final SSRS report as a PDF:
  
 ---
 
-
 ### Author  
 **Shriraksha Kulkarni**  
-Linkedin: https://www.linkedin.com/in/shriraksha-kulkarni-1120b92b9/  
-Github: : https://github.com/raksha408
-
+Linkedin: [https://www.linkedin.com/in/shriraksha-kulkarni-1120b92b9/](https://www.linkedin.com/in/shriraksha-kulkarni-1120b92b9/)  
+Github: [https://github.com/raksha408](https://github.com/raksha408)

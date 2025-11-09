@@ -47,8 +47,13 @@ The layout is visually optimized for executive presentations and sustainability 
 
 Below are the final SSRS report visuals created for the **Smart City Readiness 2025 – Global Insights Report**.  
 
-### 1. Global Sustainability Snapshot  
-![Smart City Report – Overview](SMART-CITY-READINESS-2025-GLOBAL-INSIGHTS-REPORT/SmartCity_1.png)
+### 🖥️ SSMS Data Preparation  
+![SQL Server Screenshot](SSMS_screenshot.png)
+
+---
+
+### 🌍 Global Sustainability Snapshot  
+![Smart City Report – Overview](SmartCity_1.png)
 
 This section includes:  
 - **KPI Cards** displaying Average Readiness (71.41), Renewable Energy (67.80%), and AI Integration Level (6).  
@@ -56,29 +61,23 @@ This section includes:
 - **AQRI Metric (53.60)** indicating global air quality risk.  
 - **Gauge chart** showing sustainability readiness index levels.  
 
-It highlights the overall sustainability health of global smart cities in 2025.
-
 ---
 
-### 2. Air Quality and Sustainability Trends  
-![Air Quality and Sustainability Trend](SMART-CITY-READINESS-2025-GLOBAL-INSIGHTS-REPORT/SmartCity_2.png)
+### 🌿 Air Quality and Sustainability Trends  
+![Air Quality and Sustainability Trend](SmartCity_2.png)
 
 This section contains:  
 - **Top 10 Cities by Air Quality Risk (2025)** showing environmental vulnerability rankings.  
 - **Radar chart** for *Projected Sustainability Readiness (2025–2030)* visualizing trajectory of readiness growth.  
-- Insights indicate strong growth trends in cities like **Singapore** and **London**, demonstrating policy alignment with innovation and environmental goals.  
 
 ---
 
-### 3. AI Integration vs Citizen Satisfaction  
-![AI Integration vs Citizen Satisfaction](SMART-CITY-READINESS-2025-GLOBAL-INSIGHTS-REPORT/SmartCity_3.png)
+### 🤖 AI Integration vs Citizen Satisfaction  
+![AI Integration vs Citizen Satisfaction](SmartCity_3.png)
 
 This section visualizes:  
 - **Bubble chart** showing balance between AI adoption and citizen satisfaction across continents.  
 - **Map visualization** highlighting readiness scores and renewable energy levels per region.  
-- Larger bubbles indicate cities leading in sustainability readiness and AI-driven public satisfaction.  
-
-It demonstrates how **technology integration** and **citizen well-being** progress together globally.  
 
 ---
 

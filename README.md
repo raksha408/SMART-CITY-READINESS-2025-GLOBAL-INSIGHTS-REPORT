@@ -45,10 +45,7 @@ The layout is visually optimized for executive presentations and sustainability 
 
 ## Dashboard Overview  
 
-Below are the final SSRS report visuals created for the **Smart City Readiness 2025 – Global Insights Report**.  
-
-### 🖥️ SSMS Data Preparation  
-![SQL Server Screenshot](SSMS_screenshot.png)
+Below are the final SSRS report visuals created for the **Smart City Readiness 2025 – Global Insights Report**.
 
 ---
 
